@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 7d2322c2383f7cb459a427b7803473ed
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: -5036927077404612707
+    second: Horse_Armature|Circle.001Action
+  - first:
+      74: -7781723922122480903
+    second: Horse_Armature|Circle.001Action.001
+  - first:
+      74: -8175512857898159777
+    second: Horse_Armature|CircleAction
+  - first:
+      74: -6615018309629186418
+    second: Horse_Armature|CircleAction.001
+  - first:
+      74: -2160376111268822824
+    second: Horse_Armature|CircleAction.002
+  - first:
+      74: -5643761950955703384
+    second: Horse_Armature|CircleAction.004
+  - first:
+      74: 5416263130416073455
+    second: Horse_Armature|CircleAction.005
+  - first:
+      74: -2791549350530925308
+    second: Horse_Armature|Galop
+  - first:
+      74: 8874278137645565305
+    second: Horse_Armature|Head_Moving
+  - first:
+      74: 4495404284964259424
+    second: Horse_Armature|Star.001Action
+  - first:
+      74: 4596921186616375130
+    second: Horse_Armature|StarAction
+  - first:
+      74: 6030163483929419577
+    second: Horse_Armature|Test_Poses
+  - first:
+      74: 4086522352589556400
+    second: Horse_Armature|TextAction.001
+  - first:
+      74: -8588533646224620694
+    second: Horse_Armature|Trot
+  - first:
+      74: -5049037673372515817
+    second: Horse_Armature|Walk
+  - first:
+      74: 4548478774107239191
+    second: Horse_Armature|Walk2
+  - first:
+      74: 5151217134570800203
+    second: Horse_Armature|WGT-rootAction
+  - first:
+      74: 8813992485877130965
+    second: Horse_Armature|WGT-rootAction.001
+  - first:
+      74: 3107012513134895467
+    second: Horse_Armature|WGT-rootAction.003
+  - first:
+      74: -5640910842491409639
+    second: Horse_Armature|WGT-rootAction.004
+  - first:
+      74: -2712917599169754540
+    second: Horse_Armature|WGT-rootAction.005
+  - first:
+      74: -4432508156938772101
+    second: Horse_Armature|WGT-rootAction.006
+  - first:
+      74: 2433260506266271369
+    second: Horse_Armature|WGT-rootAction.007
+  - first:
+      74: -6506568499870216987
+    second: Horse_Armature|WGT-rootAction.008
+  - first:
+      74: -8502962284046931599
+    second: Horse_Armature|WGT-sphere_littleAction
+  - first:
+      74: -7284367488937996076
+    second: Horse_Armature|WGT-sphereAction
+  - first:
+      74: 4983724327083121348
+    second: Horse_Armature|WGT-sphereAction.001
+  - first:
+      74: 1501638800506759169
+    second: Horse_Armature|WGT-sphereAction.002
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

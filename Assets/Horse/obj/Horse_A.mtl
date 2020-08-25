@@ -1,0 +1,52 @@
+# Blender MTL File: 'Horse_A.blend'
+# Material Count: 5
+
+newmtl Eye
+Ns 978.431373
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd E:\Graphic\Textures\Dosch_Creature_&_Animals_Eyes\eyes\animals\GOAT\GoatEye_02C.jpg
+
+newmtl Glass
+Ns 1000.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd E:\Graphic\Textures\Dosch_Creature_&_Animals_Eyes\eyes\animals\GOAT\GoatEye_02C.jpg
+
+newmtl Glass_NONE
+Ns 1000.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 0.000000
+illum 2
+
+newmtl Horse
+Ns 350.980392
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\Horse_Color.jpg
+map_Bump Textures\\Horse_NormalMap.jpg
+
+newmtl Horse_Jaws_Color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Textures\Horse_Jaws_Color.jpg
