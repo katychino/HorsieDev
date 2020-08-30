@@ -5,15 +5,11 @@ public class PlayerMoveS : MonoBehaviour {
 
 	[Header("Settings")]
 	public float speed = 1f;
-	public int animation = 1;
-
-	// COMPONENTS
+	int currentNumber = 0;
 	private CharacterController cc;
 	private Animator anim;
+	bool horseiswalking;
 
-	//============================================
-	// FUNCTIONS (UNITY)
-	//============================================
 
 	void Awake()
 	{
@@ -24,33 +20,62 @@ public class PlayerMoveS : MonoBehaviour {
 	void Update()
 	{	
 		// float v = Input.GetAxis("Vertical");
-		float h = Input.GetAxis("Horizontal");
-		
-		Vector3 forward = transform.forward  * speed * Time.deltaTime;
-		Vector3 backwards = -transform.forward * speed * Time.deltaTime;
-		Vector3 right = transform.right * speed * Time.deltaTime;
-		Vector3 left = -transform.right * speed * Time.deltaTime;
+		//float h = Input.GetAxis("Horizontal")
+	Vector3 forward = transform.forward  * speed * Time.deltaTime;
+	Vector3 backwards = -transform.forward * speed * Time.deltaTime;
 
+	//	Vector3 right = transform.right * speed * Time.deltaTime;
+	//	Vector3 left = -transform.right * speed * Time.deltaTime;
+
+	if(cc.isGrounded){
 		if(Input.GetKey(KeyCode.W)){
 			cc.Move(forward);
-			anim.SetFloat ("speed", animation);
-		}
-
+			horsewalking();
+			horseiswalking = true; 
+			if(Input.GetKey(KeyCode.W) && horseiswalking == true ){
+				cc.Move(forward);
+				horsetroting();
+			}
+		} 
+	}
 		if(Input.GetKey(KeyCode.S)){
 			cc.Move(backwards);
-			anim.speed = 1f;
 		}
 
 		if(Input.GetKey(KeyCode.D)){
-			//cc.Move(right);
-		    transform.Rotate(0, h , 0);
-			anim.speed = 1f;
+		    transform.Rotate(0, 1 , 0);
 		}
 
 		if(Input.GetKey(KeyCode.A)){
-			transform.Rotate(0, -h , 0);
-			//cc.Move(left);
-			anim.speed = 1f;
+			transform.Rotate(0, -1 , 0);	
 		}
+	}
+
+	void KeyPressed(int input) {
+		currentNumber = currentNumber + input;
+	//	Debug.Log(currentNumber);
+	}
+
+	void horsewalking (){
+
+		anim.SetFloat ("gear", 1);
+		speed = 2f; 
+	}
+
+	
+	void horsetroting (){
+		anim.SetFloat ("gear", 2);
+		speed = 5f; 
+
+	}
+
+	
+	void horsegalopping (){
+	anim.SetFloat ("gear", 3);
+	speed = 10f; 
+	}
+
+	void horsejumping (){
+		//todo
 	}
 }
